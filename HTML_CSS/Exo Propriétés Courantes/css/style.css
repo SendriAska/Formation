@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 4em;
+}
+
+h3 {
+    color: blue;
+    font-size: 2em;
+}
+
+p {
+    background-color: gray;
+}
+
+strong {
+    font-weight: normal;
+    color: yellowgreen;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    color: orange;
+    font-size: larger;
+}
+
+#articleTrois p {
+    background-color: pink;
+}
+
+article:nth-child(3) h3 {
+    color: green;
+    text-decoration: underline;
+    text-align: right;
+}
+
+
+/*
+#articleDeux h3 {
+    color: green;
+    text-decoration: underline;
+    text-align: right;
+}
+*/
