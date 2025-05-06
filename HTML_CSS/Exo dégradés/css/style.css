@@ -1,0 +1,18 @@
+div , p {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+#divOne {
+    background: linear-gradient(to Right top, blue, green, red)
+}
+
+#divTwo {
+    background: linear-gradient(110deg, Purple 75%, Yellow);
+}
+
+p {
+    background: linear-gradient(180deg, white, rgba(0, 0, 0, 0.5));
+}

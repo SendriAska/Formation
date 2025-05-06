@@ -1,0 +1,27 @@
+h1 {
+    text-shadow:15px -10px 5px  purple;
+}
+
+#Yo {
+    box-shadow: 0 0 10px red;
+}
+
+#Ya {
+    box-shadow: -10px 5px 2px green;
+}
+
+#test {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    background-color: blue;
+    box-shadow: 10px 10px 20px black, -10px -10px 20px white;
+    margin-top: 100px;
+}
