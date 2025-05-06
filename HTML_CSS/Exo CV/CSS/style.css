@@ -1,0 +1,71 @@
+.bgBlue {
+    background-color: #1f497d;
+}
+
+em {
+    color: #1f497d;
+}
+
+.competence {
+    color: #1f497d;
+}
+
+header {
+    color: #1f497d;
+}
+
+.contact, .competence, .hobbies {
+    padding: 30px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+p em {
+    color: white;
+}
+
+.contact li em {
+    color: white;
+}
+
+.xppros {
+    background-color: white;
+}
+
+.profil {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.presentation {
+    padding: 30px;
+}
+
+.date-circle {
+    background-color: #1f497d;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section {
+    padding: 0%;
+  }
+
+  div {
+    padding: 0;
+  }
+
+  main p {
+    font-size: small;
+  }
