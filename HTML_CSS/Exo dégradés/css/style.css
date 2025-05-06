@@ -16,3 +16,15 @@ div , p {
 p {
     background: linear-gradient(180deg, white, rgba(0, 0, 0, 0.5));
 }
+
+#divThree {
+    background: radial-gradient(circle 75px,aqua, pink);
+}
+
+#divFour {
+    background: repeating-radial-gradient(circle ,black, white 10px);
+}
+
+#divFour:hover {
+    background: repeating-radial-gradient(circle, white, black 10px);
+}
