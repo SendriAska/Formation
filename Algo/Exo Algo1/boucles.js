@@ -378,7 +378,21 @@ for (let i=0;i<5;i++){
 */
 console.log("Exercice 22");
 // TODO
-
+for (let i=0;i<5;i++){
+    let feur = ""
+    for (let j=0;j<space;j++){
+        feur = feur + " ";
+    }
+    for (let j=0;j<stars;j++) {
+        feur = feur + "*";
+    }
+    for (let j=0;j<space;j++){
+        feur = feur + " ";
+    }
+    console.log(feur);
+    space--;
+    stars++;
+}
 // Exercice 23 : afficher dans la console :
 /*
     *
@@ -393,3 +407,19 @@ console.log("Exercice 22");
 */
 console.log("Exercice 23");
 // TODO
+
+
+
+
+
+
+function devern(n) {
+    console.log("On m'a donné", n );
+    let result = n+10;
+    return result;
+    console.log("le résultat est", result);
+}
+
+console.log("Bonjour");
+console.log(devern(devern(0)));
+console.log("Au revoir");
