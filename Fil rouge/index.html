@@ -13,5 +13,130 @@
     />
     <script async src="js/main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">M</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Donjons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Coachs</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Recherche..."
+              aria-label="Search"
+            />
+          </form>
+          <div class="text-white ms-3">
+            <i class="bi bi-person"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h2 class="text-center section-title">Trending</h2>
+      <div class="row trending">
+        <div class="col-md-4">
+          <img src="https://example.com/shaman.jpg" alt="Shaman Update" />
+          <p>Dernière MAJ pour le chaman ...</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://example.com/monk.jpg" alt="Monk Update" />
+          <p>Dernière MAJ pour le moine ...</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://example.com/interview.jpg" alt="Interview" />
+          <p>Interview de Maystine</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <h3 class="section-title">Coachs</h3>
+          <div class="d-flex align-items-center mb-3 coach-card">
+            <img src="https://example.com/sendri.jpg" alt="Sendri" />
+            <div>
+              <div>
+                Sendri<br /><small>Voleur<br />All spés</small>
+              </div>
+              <div>★★★★★</div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-3 coach-card">
+            <img src="https://example.com/slogor.jpg" alt="Slogor" />
+            <div>
+              <div>
+                Slogor<br /><small>DK<br />Tank</small>
+              </div>
+              <div>★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <h3 class="section-title">Guides</h3>
+          <div class="card bg-dark text-white mb-3">
+            <img
+              src="https://example.com/brasserie.jpg"
+              class="card-img-top"
+              alt="Brasserie cendrebière"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Bienvenue dans le guide mythique + de la brasserie cendrebière
+                pour <span class="text-warning">paladin retribution</span> ! Ce
+                guide détaille tout ce qu’il faut savoir pour...
+              </p>
+              <small>Écrit par Radna</small>
+            </div>
+          </div>
+          <div class="card bg-dark text-white">
+            <img
+              src="https://example.com/prieure.jpg"
+              class="card-img-top"
+              alt="Flamme sacrée"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Bienvenue dans le guide mythique + du Prieure de la Flamme
+                Sacrée pour
+                <span class="text-warning">Voleur Hors-la-loi</span> ! Ce guide
+                détaille tout ce qu’il faut savoir pour...
+              </p>
+              <small>Écrit par Sendri</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="icon-bar">
+          <img
+            src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png"
+            alt="Discord"
+          />
+          <img
+            src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png"
+            alt="X"
+          />
+        </div>
+        <div>
+          <a href="#" class="text-white me-3">Mentions légales</a>
+          <a href="#" class="text-white">Contact</a>
+        </div>
+        <div>
+          <span class="text-white">Join us</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
