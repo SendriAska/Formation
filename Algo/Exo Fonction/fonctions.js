@@ -10,7 +10,7 @@ f1();
 
 // Écrire une fonction f2 qui ne prend rien en entrée, et qui retourne 17.
 
-function f2 () {
+function f2() {
     return 17;
 }
 
@@ -45,7 +45,10 @@ console.log(f4(100));
 // Utiliser la fonction f4 pour stocker dans une variable appelée a le double de 101.
 
 let a = 101;
-console.log(f4(a));
+a = f4(a);
+//let a = f4(101);
+
+console.log("la variable a contient",a);
 
 // Écrire une fonction f5 qui prend en entrée deux nombres et qui affiche dans la console la somme de ces deux nombres.
 
@@ -70,14 +73,14 @@ console.log(f6(42,77));
 
 // Utiliser la fonction f6 pour incrémenter la variable a de la somme de 42 et 77.
 
-console.log(f6(42,77)+1);
+a = a+f6(42,77);
 
 // Écrire une fonction f9 qui prend un nombre et un mot en entrée, et qui affiche dans la console ce mot ce nombre de fois.
 
 function f9(n,m) {
-    for(i=0;i<n;i++){
+    for(let i=0;i<n;i++){
         console.log(m);
-    } 
+    }
 }
 
 f9(5,"bob");
@@ -100,9 +103,9 @@ console.log(f7(1,99));
 
 
 function f8 (n,m,o) {
-    if (n>m & n>o) {
+    if (n>=m & n>=o) {
         return n;
-    } else if (o>m & o>n) {
+    } else if (o>=m) {
         return o;
     } else {
         return m;
@@ -110,6 +113,6 @@ function f8 (n,m,o) {
 }
 
 
-console.log(f8(100,11,200));
+console.log(f8(10,5,10));
 console.log(f8(1,11,4));
 console.log(f8(100,11,5));

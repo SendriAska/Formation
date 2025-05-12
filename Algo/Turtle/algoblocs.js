@@ -259,7 +259,6 @@ for(let i=0; i<4; i++) {
 }
 */
 
-
 /*
 //B2
 //Initialisation
@@ -508,7 +507,7 @@ for (let i=0;i<4;i++){
     forward(100);
     arcLeft(50,90);
 }
-*//*
+*/ /*
 //B16
 //Initialisation
 setPos(100,300);
@@ -640,7 +639,7 @@ for(let i=0;i<6;i++){
     forward(200);
     down();
 }
-*//*
+*/ /*
 //B22
 //Initialisation
 setPos(400,100);
@@ -672,7 +671,6 @@ for(let i=0;i<6;i++){
 }
 */
 
-
 /*
 //B23
 //Initialisation
@@ -700,7 +698,6 @@ for(let i=0;i<3;i++){
 right(180-45);
 forward(100);
 */
-
 
 /*
 //B24
@@ -798,7 +795,6 @@ for(let i=0;i<3;i++){
     down();
 }
 */
-
 
 /*
 //C4
@@ -905,7 +901,6 @@ for(let i=0;i<4;i++){
 }
 */
 
-
 /*
 //C9
 //Initialisation
@@ -951,7 +946,6 @@ for(let i=0;i<4;i++){
 }
 */
 
-
 /*
 //C11
 //Initialisation
@@ -977,7 +971,6 @@ for(let i=0;i<6;i++){
     down();
 }
 */
-
 
 /*
 //C12
@@ -1136,7 +1129,6 @@ for (let i=0;i<10;i++){
     angle -= 5
 }
 */
-
 
 /*
 // D16
@@ -1305,7 +1297,6 @@ right(90);
 dessinerL();
 */
 
-
 /*
 // E6
 //Initialisation
@@ -1395,7 +1386,6 @@ changeColor(color.yellow);
 triangles();
 */
 
-
 /*
 // E9
 //Initialisation
@@ -1459,7 +1449,6 @@ for (let i=0;i<3;i++){
     shiftColor(0.3);
 }
 */
-
 
 /*
 // E11
@@ -1530,7 +1519,7 @@ down();
 carres();
 */
 
-waitTime = 0.02;
+/*waitTime = 0.02;
 setLineWidth(3);
 
 for(let i = 0 ; i < 300 ; i++) {
@@ -1542,5 +1531,14 @@ for(let i = 0 ; i < 300 ; i++) {
         left(120);
         shiftColor(1/250);
         length += 2;
+    }
+}
+*/
+let dir =
+    "NNEESOOESEENNEEOOSEOSEEENNESENSSENNEESSOOEEENNEEOOSEOSEEENEENOOEESOOSEEEEEEENONSESENNSSENNEESSOOEEENNSSEENNSSEEENOONEEOOSEESEEEENNEESSOOEEENNEESOOEESENNESENSSEEENOONEEOOSEESEEEENNSSEEENNEESOOEESEEEENNEEOOSEOSEEENNEESSOOEEENNEESOOESEENNEEOOSEOSEEEENNOEEOSSEEEEENNEESOOEESOOEEENNEESOOESEENNSSEENNSSENNESNESSENNEEOOSEOSEEENNSSEENNSSEEENOONEEOOSEESENNEEOOSEOSEEEEEENNEESSOOEEENNEEOOSEOSEEENNESNESSENNEESOOEESENNSSENNESENSS";
+
+function moove() {
+    for(let i=0;i<dir;i++) {
+        
     }
 }
