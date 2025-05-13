@@ -184,24 +184,23 @@ console.log(tab77770)
 
 let tabDivDeux = [];
 for (let i = 0 ; i < 7778 ; i++) {
-  tabDivDeux.push(tab77770[i/2]);
+  tabDivDeux.push(tab77770[i]/2);
 }
 
 console.log(tabDivDeux)
 // Écrire une fonction qui prend un tableau en entrée et qui en supprime les dernières valeurs, tant qu'elles sont inférieures à 50.
 // console.log(leNomDeVotreFonction([1,45,88,54,23,-100,12])); // doit afficher [1,45,88,54]
 
-let Frieren = [1,45,88,54,23,-100,12]
+let frieren = [1,45,88,54,23,-100,12]
 
 function tabBonjour(tab) {
-  for (let i = 1 ; i > tab.length ; i++) {
-      if (tab[tab.length] < 50) {
-        tab.pop();
-      }
-  }
+    while (tab[tab.length - 1] < 50) {
+      tab.pop();
+    }
+    return tab;
 }
 
-console.log(tabBonjour(Frieren));
+console.log(tabBonjour(frieren));
 // [Plus difficile - bonus] Écrire une fonction qui prend en entrée un tableau de nombres positifs et qui retourne la deuxième plus grande valeur du tableau.
 
 // [Bonus] Suite de l'exo : on **sait** que le tableau reçu est trié (on ne le vérifie pas). Comment exploiter cette information pour améliorer la recherche d'un élément ?
