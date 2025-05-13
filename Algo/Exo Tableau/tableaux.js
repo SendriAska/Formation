@@ -98,23 +98,110 @@ tabAA(tab1);
 
 // Écrire une fonction qui prend en entrée un tableau et qui retourne le minimum de ce tableau.
 
+function tabAC(tab) {
+    console.log(Math.min(...tab))
+    return Math.min(...tab);
+}
+
+tabAC(tabA);
 
 
+function tabMini (tab) {
+  let min = tab[0];
+  for (let i=1 ; i< tab.length;i++) {
+    if (tab[i]<min) {
+      min = tab[i];
+    }
+  }
+  return min;
+}
+
+console.log(tabMini(tabA))
 // Écrire une fonction qui prend en entrée un tableau et qui retourne le maximum de ce tableau.
+
+function tabMax (tab) {
+  let max = tab[0];
+  for (let i=1 ; i < tab.length;i++) {
+    if (tab[i] > max) {
+      max = tab[i];
+    }
+  }
+  return max;
+}
+
+console.log(tabMax(tabA))
+console.log(tabMax(tab1))
 
 // Écrire une fonction qui prend en entrée un tableau et un nombre et qui retourne le nombre de fois que ce nombre apparaît dans le tableau.
 
+let tabLol = [1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,2,2,1,1,1,1,4,4,4,5,5,5,8,8,8,6,6,6,6,6,6,7,9,7,7,7,7]
+
+function tabAF(tab,n) {
+  let count = 0;
+  for ( let i=1;i < tab.length;i++) {
+    if (tab[i]==n){
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(tabAF(tabLol,1))
+
+
 // Écrire une fonction qui prend en entrée un tableau et un nombre et qui retourne true si le nombre existe dans le tableau, false sinon.
+
+function tabFeur(tab,n) {
+  for ( let i=1;i < tab.length;i++) {
+    if (tab[i]==n){
+      return "true";
+    } else {
+      return "false";
+    }
+  }
+}
+
+console.log(tabFeur(tabLol,1))
+console.log(tabFeur(tabLol,100))
 
 // Créer un tableau qui contient [1,2,3,...,7777].
 
+let tab7777 = []
+for (let i = 0 ; i < 7778 ; i++) {
+  tab7777.push(i);
+}
+
+console.log(tab7777)
 // Créer un tableau qui contient [10,20,30,...,77770].
 
+let tab77770 = []
+for (let i = 0 ; i < 7778 ; i++) {
+  tab77770.push(i*10);
+}
+
+console.log(tab77770)
 // En se servant du tableau précédent, créer un tableau qui contient [5,10,15,...,38885].
 
+let tabDivDeux = [];
+for (let i = 0 ; i < 7778 ; i++) {
+  tabDivDeux.push(tab77770[i/2]);
+}
+
+console.log(tabDivDeux)
 // Écrire une fonction qui prend un tableau en entrée et qui en supprime les dernières valeurs, tant qu'elles sont inférieures à 50.
 // console.log(leNomDeVotreFonction([1,45,88,54,23,-100,12])); // doit afficher [1,45,88,54]
 
+let Frieren = [1,45,88,54,23,-100,12]
+
+function tabBonjour(tab) {
+  for (let i = 1 ; i > tab.length ; i++) {
+      if (tab[tab.length] < 50) {
+        tab.pop();
+      }
+  }
+}
+
+console.log(tabBonjour(Frieren));
 // [Plus difficile - bonus] Écrire une fonction qui prend en entrée un tableau de nombres positifs et qui retourne la deuxième plus grande valeur du tableau.
 
 // [Bonus] Suite de l'exo : on **sait** que le tableau reçu est trié (on ne le vérifie pas). Comment exploiter cette information pour améliorer la recherche d'un élément ?
