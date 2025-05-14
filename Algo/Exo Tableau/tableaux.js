@@ -167,7 +167,7 @@ console.log(tabFeur(tabLol,100))
 // Créer un tableau qui contient [1,2,3,...,7777].
 
 let tab7777 = []
-for (let i = 0 ; i < 7778 ; i++) {
+for (let i = 1 ; i < 7778 ; i++) {
   tab7777.push(i);
 }
 
@@ -175,7 +175,7 @@ console.log(tab7777)
 // Créer un tableau qui contient [10,20,30,...,77770].
 
 let tab77770 = []
-for (let i = 0 ; i < 7778 ; i++) {
+for (let i = 1 ; i < 7778 ; i++) {
   tab77770.push(i*10);
 }
 
@@ -183,7 +183,7 @@ console.log(tab77770)
 // En se servant du tableau précédent, créer un tableau qui contient [5,10,15,...,38885].
 
 let tabDivDeux = [];
-for (let i = 0 ; i < 7778 ; i++) {
+for (let i = 0 ; i < 7777 ; i++) {
   tabDivDeux.push(tab77770[i]/2);
 }
 
