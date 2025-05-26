@@ -1,0 +1,47 @@
+form {
+    width: 400px;
+    height: 250px;
+    border: solid black;
+    display: grid;
+    background-color: rgb(241, 241, 241);
+}
+
+h1 {
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid black;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+div {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#remember {
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 30px;
+}
+
+
