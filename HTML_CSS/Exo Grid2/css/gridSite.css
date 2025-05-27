@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 100px 1fr 50px;
+}
+
+h1 {
+    grid-column: 2;
+    text-align: center;
+}
+
+nav {
+    grid-column: 2;
+    grid-row: 2;
+    display : grid;
+    justify-items: center;
+}
+
+#artUn , #artDeux , #artTrois {
+    grid-row: 3;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px 65px;
+}
+
+footer {
+    grid-row: 4;
+}
