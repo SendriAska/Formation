@@ -1,0 +1,71 @@
+body {
+    display:grid;
+    grid-template-columns: 75% 1fr ;
+    grid-template-rows: 100px 1fr 50px;
+}
+
+h1 {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+#tchat {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(128, 190, 240);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.white {
+    align-self: flex-start;
+    max-width: 52%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grey {
+    align-self: flex-end;
+    max-width: 50%;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    border: solid 2px rgb(128, 190, 240);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+#type {
+    display: grid;
+    grid-template-columns: 90% 1fr 1fr;
+    margin: 5px;
+}
+
+label {
+    justify-self: center;
+    align-self: center;
+    margin: 5px;
+}
+
+#message {
+    border-radius: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}

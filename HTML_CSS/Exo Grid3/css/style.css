@@ -12,7 +12,7 @@ h1 {
 #main {
     grid-column: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 20px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     border: solid 2px rgb(128, 190, 240);
     border-radius: 20px;
@@ -20,14 +20,15 @@ h1 {
 }
 
 .white {
-    grid-column:1 ;
+    grid-column:1 /span 2;
     margin: 10px;
     padding: 10px;
+    padding-right: 0;
 }
 
 .grey {
     background-color: lightgray;
-    grid-column: 2;
+    grid-column: 2 /span 3;
     margin: 10px;
     padding: 10px;
 }
