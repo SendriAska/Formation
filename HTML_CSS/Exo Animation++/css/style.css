@@ -1,0 +1,75 @@
+@keyframes texteWoohoo {
+    0% {
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+h1 {
+    color: red;
+    animation: monTitre 1s;
+}
+
+h1:hover {
+    color: green;
+    transition: color 1s linear;
+}
+
+p {
+    animation: texteWoohoo 1s;
+}
+
+p:active {
+    transform: rotate(2turn);
+    transition: 2s ease-out;
+}
+
+@keyframes monTitre {
+    0% {
+        transform: translate(-200px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes button {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+#one:hover {
+    animation: button 0.2s infinite alternate;
+}
+
+@keyframes buttonTranslate {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#two:hover {
+    animation: buttonTranslate 0.2s infinite alternate;
+}
+
+@keyframes buttonSize {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+#three:hover {
+    animation: buttonSize 0.5s linear infinite alternate;
+}
