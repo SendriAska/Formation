@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+audio , video , iframe {
+    margin: 10px;
+    border: solid black;
+    border-radius: 20px;
+}
+
+audio {
+    width: auto;
+}
