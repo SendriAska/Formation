@@ -1,6 +1,31 @@
-div {
-    height: 150px;
-    width: 300px;
-    background-color: aqua;
-    position: absolute;
+body {
+    position: relative;
 }
+
+#compteur, #compteur2, #gameOver {
+      font-size: 2rem;
+      margin-top: 20px;
+      left: 50%;
+      position: relative;
+    }
+
+    #balle {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+    }
+
+    #gameOver {
+      font-size: 4rem;
+      color: red;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+    }
